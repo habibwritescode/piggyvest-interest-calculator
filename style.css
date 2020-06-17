@@ -59,7 +59,7 @@ label{
 input{
     display: block;
     height: 48px;
-    width: 100%;
+    width: 384px;
     padding: 12px 8px 12px 12px;
     outline: none;
     background-color: #edf2f7;
@@ -118,11 +118,11 @@ a:hover{
     }
 
     input{
-        width: 60%;
+        width: 60vw;
     }
 
     button{
-        width: 60%;
+        width: 60vw;
     }
 
     #interest, #total{
