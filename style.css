@@ -88,3 +88,17 @@ button:hover{
 #interest{
     margin-bottom: 10px;
 }
+
+footer{
+    color: white;
+    margin-bottom: 40px;
+}
+
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellow;
+}
