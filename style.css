@@ -102,3 +102,31 @@ a{
 a:hover{
     color: yellow;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .form-container{
+        width: 80vw;
+    }
+
+    .header{
+        width: 90%;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    input{
+        width: 60%;
+    }
+
+    button{
+        width: 60%;
+    }
+
+    #interest, #total{
+        font-size: 12px;
+    }
+    
+}
