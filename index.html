@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Interest Calculator</title>
+</head>
+
+<body>
+    <a href=""><img src="./images/piggyvest-logo.0b78a8fa.svg" alt=""></a>
+
+    <div class="form-container">
+        <div class="header">
+            <h2>Calculate your interest</h2>
+            <p>Know the interest from your investments</p>
+        </div>
+        <form>
+            <div>
+                <label for="investment-amount">Principal</label>
+                <input type="text" name="" id="investment-amount" placeholder="Enter amount to be invested" required>
+            </div>
+            <div>
+                <label for="interest-rate">Interest Rate</label>
+                <input type="text" name="" id="interest-rate" placeholder="E.g: 15%" required>
+            </div>
+            <div>
+                <label for="duration">Duration</label>
+                <input type="text" name="" id="duration" placeholder="E.g: 2 (must be in terms of years)" required>
+            </div>
+
+            <div id="results">
+                <p id="interest"></p>
+                <p id="total"></p>
+            </div>
+
+            <button id="calculate">CALCULATE</button>
+        </form>
+
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
